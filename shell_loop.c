@@ -66,7 +66,7 @@ continue;
 input = rep_var(input, datash);
 loop = split_commands(datash, input);
 datash->counter += 1;
-free(input)
+ free(input);
 }
 else
 {
